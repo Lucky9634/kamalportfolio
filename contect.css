@@ -1,0 +1,73 @@
+
+form{
+    height: 75vh;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+form label{
+    font-size: 1.3rem;
+    color: rgb(232, 51, 69);
+}
+form input{
+    cursor: pointer;
+    border: none;
+    padding: 0.4rem 0.2rem;
+    border-radius: 0.5rem;
+}
+form textarea{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+form button{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.2rem;
+    width: 40%;
+    margin: 0 auto;
+}
+form input:hover{
+    color: white;
+    background-color: gray;
+}
+form textarea:hover{
+    color: white;
+    background-color: gray;
+}
+form button:hover{
+    color: black;
+    background-color: yellow;
+    box-shadow:  0 0 3rem yellow;
+}
+
+.per-det{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 0.6rem;
+    color: white;
+    border: 0.1rem solid rgb(219, 157, 157);
+    padding: 2rem 3rem;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    form {
+        height: 65vh;
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .per-det {
+        width: 80%;
+        padding: 1.4rem 1.5rem;
+    }
+}
