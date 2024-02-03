@@ -1,0 +1,90 @@
+.section-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    margin: 5rem auto;
+}
+
+.section-part h3 {
+    color: #ed4273;
+    font-size: 2rem;
+}
+
+.section-part p {
+    color: rgb(22, 119, 22);
+    font-size: 1.5rem;
+}
+
+.first-project {
+    border: 2px solid gray;
+    border-radius: 0.8rem;
+}
+
+table {
+    /* background-color: gray; */
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #15155c;
+}
+
+table tr {
+    display: flex;
+    gap: 10rem;
+    margin: 0.4rem 0rem;
+}
+
+.projrctname {
+    margin-top: 0.3rem;
+    width: 52.3%;
+}
+
+.show_now {
+    margin-left: 11rem;
+}
+
+.btn-sho {
+    padding: 0.4rem 1.4rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: rgb(229, 51, 101);
+    width: 132%;
+}
+
+.btn-sho a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-sho:hover {
+    transition: all 0.3s;
+    box-shadow: 0 0 3rem yellow;
+    background-color: yellow;
+    color: black;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .section-part h3 {
+        font-size: 1.5rem;
+    }
+
+    table tr {
+        gap: 6rem;
+    }
+
+    .section-part p {
+        font-size: 1.1rem;
+    }
+
+    table {
+        padding: 1rem 1rem;
+    }
+}
