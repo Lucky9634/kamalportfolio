@@ -45,9 +45,13 @@ body {
    list-style: none;
 }
 .sideNav ul li a{
-    color: white;
+    color: #15155c;
     text-decoration: none;
     font-size: 1.3rem;
+}
+.sideNav ul li a:hover{
+    color: #A0435D;
+    text-decoration: underline;
 }
 #cencel{
     position: absolute;
